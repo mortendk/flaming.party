@@ -1,0 +1,140 @@
+@font-face {
+  font-family: carosello;
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("font/Carosello-Regular.otf") format("opentype");
+}
+
+body {
+background-image: url(images/bg-flamingo.jpg);
+
+  /*background-color: hotpink;
+  background-image: linear-gradient(transparent 50%, rgba(255,255,255,0.3) 50%);
+  background-size: 7rem;*/
+
+  font-family: -apple-system, BlinkMacSystemFont,  “Segoe UI”, “Roboto”, “Oxygen”,  “Ubuntu”, “Cantarell”, “Fira Sans”, “Droid Sans”, “Helvetica Neue”, sans-serif;
+  font-size: 1rem
+}
+main {
+  padding-bottom: 5rem
+}
+
+
+h1 {
+  color: #73dccf;
+  font-family: "carosello";
+  font-size: 10rem;
+  font-weight: normal;
+  margin: 0
+}
+
+h2 {
+  color: hotpink;
+  font-family: "carosello";
+  font-size: 5rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 0
+}
+h3 {
+  color: hotpink;
+  font-family: "carosello";
+  font-size: 5rem;
+  font-weight: normal;
+  text-align: center;
+margin: 0
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 47.99em) {
+  main { width: 100%}
+}
+
+article {
+  margin-bottom: 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+p{
+  padding-bottom: 2rem
+}
+a {
+  color: hotpink;
+}
+
+.su {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2rem;
+  margin: 0;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+
+/* figure*/
+figure{
+  padding: 0;
+  margin: 0;
+}
+figure.circle img{
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 5px solid #ffc107
+}
+figcaption{
+  width: 10rem;
+  text-align: center
+
+}
+
+
+figure.rounded img{
+  height: 15rem;
+  border-radius: 20%;
+  margin: 0 auto;
+border: 5px solid #ffc107
+}
+
+.bottomimage{
+  width: 3rem;
+  margin: 0 auto -3rem auto;
+}
+
+.roundedvideo{
+  border-radius: 1rem;
+  border: 5px solid #ffc107;
+}
+
+.moma{
+  position: relative;
+  background-image: url(images/moma.jpg);
+  background-position: center center;
+  height: 20rem
+}
+.moma p{
+  color: #73dccf;
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+.moma h3{
+  text-align: center;
+  padding-top: 9rem
+}
